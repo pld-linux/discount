@@ -4,9 +4,9 @@ Version:	2.1.8
 Release:	1
 License:	BSD
 Group:		Applications
-URL:		http://www.pell.portland.or.us/~orc/Code/discount
-Source0:	%{url}/%{name}-%{version}.tar.gz
+Source0:	http://www.pell.portland.or.us/~orc/Code/discount/%{name}-%{version}.tar.gz
 # Source0-md5:	fcb1e7a3d19c2e666655fa8a28066e76
+URL:		http://www.pell.portland.or.us/~orc/Code/discount
 Patch0:		%{name}-ldconfig.patch
 Requires:	libmarkdown = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
