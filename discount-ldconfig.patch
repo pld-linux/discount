@@ -1,8 +1,8 @@
---- discount-2.2.2/configure.inc.orig	2017-02-26 12:31:46.399778068 +0100
-+++ discount-2.2.2/configure.inc	2017-02-26 12:32:51.019777329 +0100
-@@ -1372,7 +1372,7 @@
- 	$PROG_LN_S -f "\$FULLNAME" "\$1/\$LIBNAME.\$MAJOR"
- 	$PROG_LN_S -f "\$FULLNAME" "\$1/\$LIBNAME"
+--- discount-2.2.6/configure.inc.orig	2019-04-15 17:28:20.000000000 +0200
++++ discount-2.2.6/configure.inc	2021-04-23 18:57:39.936658790 +0200
+@@ -1501,7 +1501,7 @@
+ 	$PROG_LN_S -f \$FULLNAME \$1/\$LIBNAME.\$MAJOR
+ 	$PROG_LN_S -f \$FULLNAME \$1/\$LIBNAME
  EOF
 -    test "$LDCONFIG" && echo '	'$LDCONFIG '"$1"' >> librarian.sh
 +    test "$LDCONFIG" && echo '	'$LDCONFIG '"$1" || :' >> librarian.sh
