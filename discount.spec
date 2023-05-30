@@ -1,12 +1,12 @@
 Summary:	A command-line utility for converting Markdown files into HTML
 Summary(pl.UTF-8):	Działające z linii poleceń narzędzie do konwersji plików Markdown do HTML-a
 Name:		discount
-Version:	2.2.6
+Version:	2.2.7b
 Release:	1
 License:	BSD
 Group:		Applications/Text
 Source0:	http://www.pell.portland.or.us/~orc/Code/discount/%{name}-%{version}.tar.bz2
-# Source0-md5:	3ed0f301dc09d2732a9b38b10c45d2ee
+# Source0-md5:	524dd06c00cc585bec9c4ce949ec1d11
 Patch0:		%{name}-ldconfig.patch
 URL:		http://www.pell.portland.or.us/~orc/Code/discount
 Requires:	libmarkdown = %{version}-%{release}
