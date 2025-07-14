@@ -51,7 +51,7 @@ biblioteki libmarkdown.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # NOTE: not autoconf based configure
